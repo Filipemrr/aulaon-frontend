@@ -4,10 +4,11 @@ import { css } from "@emotion/react";
 const AppWrapper = styled.div`
   ${() => css`
     h1 {
-      font-size: 30px;
       color: var(--color-blue-primary);
     }
     p {
+      font-weight: "light";
+      font-size: "13px";
       padding: 0;
       margin: 0;
     }

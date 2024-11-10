@@ -7,4 +7,11 @@ const MainSection = styled(Grid2)({
   marginLeft: "11.1%",
 });
 
-export default MainSection;
+const SectionGrid = styled(Grid2)({
+  border: "1px solid green",
+  height: "30%",
+  display: "flex",
+  paddingTop: "1rem",
+  justifyContent: "center",
+});
+export { MainSection, SectionGrid };
