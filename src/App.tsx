@@ -1,4 +1,3 @@
-import "./App.css";
 import { AppWrapper } from "./AppStyle";
 import AppRoutes from "./Routes";
 
