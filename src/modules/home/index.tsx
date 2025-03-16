@@ -5,6 +5,7 @@ import TopBar from "../../Shared/components/TopBar";
 import { MainSection, SectionGrid } from "./style";
 import { Grid2 } from "@mui/material";
 import { HomeBanner } from "./components/Banner";
+import { CalendarWidget } from "./components/Calendar";
 
 export const Homepage: React.FC = () => {
   return (
@@ -18,7 +19,7 @@ export const Homepage: React.FC = () => {
             <HomeBanner />
           </SectionGrid>
           <SectionGrid>
-            <h1>Calendário</h1>
+            <CalendarWidget />
           </SectionGrid>
           <SectionGrid>
             <h1>Continue de onde parou</h1>

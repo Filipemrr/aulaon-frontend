@@ -3,9 +3,6 @@ import { css } from "@emotion/react";
 
 const AppWrapper = styled.div`
   ${() => css`
-    h1 {
-      color: var(--color-blue-primary);
-    }
     p {
       font-weight: "light";
       font-size: "13px";
